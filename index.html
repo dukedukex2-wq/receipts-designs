@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Boostrap 4 link tag -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <!-- Bootstrap 5 Max cdn link tags  -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+        <!-- External Css -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Remix icons -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+        <!-- Animate onScroll  -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- Raleway font tag -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    </head>
+    <body>
+        <div class="wrapper mx-auto pt-3 ml-2 mr-2" style="width: 500px; height: auto;">
+            <section class="pt-5 text-center">
+                <div class="container">
+                    <div class="payment-container d-flex align-items-center justify-content-center ">
+                        <div class="payment-container-icon bg-white border border-light rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                            <a href="#" class="text-decoration-none"><i class="ri-arrow-left-line text-body p-3 fs-3 fw-medium"></i></a>
+                        </div>
+
+                        <h5 class="display-6 text-black fw-semibold lh-sm text-nowrap ml-2 mr-2">Payment Status</h5>
+
+                        <div class="payment-container-icon2 bg-white border border-light rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
+                            <a href="#" class="text-decoration-none"><i class="ri-share-forward-2-fill text-body p-3 fs-3 fw-medium"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="pt-5">
+                <div class="container">
+                    <!-- receipt bg is the secondary background -->
+                    <div class="receipt-bg w-100 mx-auto rounded-4" style=" background: linear-gradient(to bottom, #1a1a1a, #111); box-shadow: 0 8px 24px rgba(0,0,0,0.35), inset 0 -4px 8px rgba(255,255,255,0.03); height: 120px;">
+                        <!-- receipt-bg-inner is the black bg -->
+                        <div class="receipt-bg-inner mx-auto" style="background: linear-gradient(to bottom, #000000, #1a1a1a); height: 50px; width: 89%; transform: translateY(30%); border-radius: 20px;"></div>
+                        <!-- receipt-bg-white is the background that is white with a long height -->
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3500" class="receipt-bg-white bg-white shadow rounded-3 mx-auto" style="position: relative; bottom: 20px; height: 110vh; width: 85%; z-index: 1;">
+                            <h5 class="text-center text-wrap text-break" style="font-size: 20px; letter-spacing: .5px; font-family: sans-serif; text-wrap: pretty;">
+                               - - - - - - - - - - - - - - - - - -  - - - - - -  <br>
+                                Trip Invoice - Japan Summer 2025 <br>
+                               - - - - - - - - - - - - - - - - - -  - - - - - - 
+                            </h5>
+                            <div class="receipt-cash pt-2 d-flex align-items-center justify-content-between ml-3 mr-3">
+                                <h5 style="font-family: sans-serif; letter-spacing: .6px" class="text-secondary fw-medium fs-6">Total</h5>
+                                <h6 style="font-family: sans-serif; letter-spacing: .6px" class="text-black fw-semibold fs-6">$30,000</h6>
+                            </div>
+                            <div class="receipt-cash d-flex align-items-center justify-content-between ml-3 mr-3">
+                                <h5 style="font-family: sans-serif; letter-spacing: .6px;" class="text-secondary fw-medium fs-6">Per Person</h5>
+                                <h6 style="font-family: sans-serif; letter-spacing: .6px" class="text-black fw-semibold fs-6">$6,000</h6>
+                            </div>
+                            <hr class="border border-1 border-dark-subtle ml-2 mr-2">
+                            <div class="position-relative">
+                                <!-- Vertical line -->
+                                <div class="position-absolute border border-1 border-light-subtle" style="left: 80px; top: 0; height: 100%;"></div>
+                                <div class="images-text-con pt-3">
+                                    <div class="img-text d-flex align-items-center justify-content-between ml-3 mr-3">
+                                        <!-- Img 1 -->
+                                        <!-- Made changes here -->
+                                        <img style="width: 50px; height: 50px;" src="img/m1.png" class="img-fluid border border-light rounded-circle p-1 bg-white shadow" alt="round 1" role="img">
+                                        <h6 class="mr-5 pr-5 ext-black fs-6 fw-medium text-wrap ">You</h6>
+                                        <a href="#" class="d-inline-block text-decoration-none mr-2 border border-muted border-3 rounded-3 p-2 text-black fw-semibold fs-6 text-nowrap" role="link">
+                                            <i class="ri-check-line text-white bg-success p-1 rounded-circle"></i> &nbsp;
+                                            Paid
+                                        </a>
+                                    </div> 
+                                    <hr class="border border-1 border-dark-subtle ml-2 mr-2">
+
+                                    <div class="img-text d-flex align-items-center justify-content-between ml-3 mr-3">
+                                        <!-- Img 2 -->
+                                        <img style="width: 50px; height: 50px;" src="img/m2.png" class="img-fluid img-circle" alt="round 2" role="img">
+                                        <h6 class="mr-5 pr-5 text-black fs-6 fw-medium">Olabode</h6>
+                                        <a href="#" class="d-inline-block text-decoration-none mr-2 border border-muted border-3 rounded-3 p-2 text-black fw-semibold fs-6 text-nowrap" role="link">
+                                            <i class="ri-check-line  text-white bg-success p-1 rounded-circle"></i> &nbsp;
+                                            Paid
+                                        </a>
+                                    </div> 
+                                    <hr class="border border-1 border-dark-subtle ml-2 mr-2">
+
+                                    <div class="img-text d-flex align-items-center justify-content-between ml-3 mr-3">
+                                        <!-- Img 3 -->
+                                        <img style="width: 50px; height: 50px;" src="img/m3.png" class="img-fluid img-circle" alt="round 3" role="img">
+                                        <h6 class="mr-5 pr-5 text-black fs-6 fw-medium">Lukmon</h6>
+                                        <a href="#" class="d-inline-block text-decoration-none mr-2 border border-muted border-3 rounded-3 p-2 text-black fw-semibold fs-6 text-nowrap" role="link">
+                                            <i class="ri-check-line text-white bg-success p-1 rounded-circle"></i> &nbsp;
+                                            Paid
+                                        </a>
+                                    </div> 
+                                    <hr class="border border-1 border-dark-subtle ml-2 mr-2">
+
+                                    <div class="img-text d-flex align-items-center justify-content-between ml-3 mr-3">
+                                        <!-- Img 4 -->
+                                        <img style="width: 50px; height: 50px;" src="img/m4.png" class="img-fluid img-circle" alt="round 4" role="img">
+                                
+                                        <h6 class="mr-5 pr-5 text-black fs-6 fw-medium">Hope</h6>
+                                        <a href="#" class="time d-inline-block text-decoration-none mr-2 border border-muted border-3 rounded-3 p-2 text-black fw-semibold fs-6 text-nowrap" role="link">
+                                            <i class="ri-timer-2-line text-white p-1 rounded-circle" style="background:#D07C2A" ></i> &nbsp;
+                                            Unpaid
+                                        </a>
+                                    </div> 
+                                    <hr class="border border-1 border-dark-subtle ml-2 mr-2">
+
+                                    <div class="img-text d-flex align-items-center justify-content-between ml-3 mr-3">
+                                        <!-- Img 5 -->
+                                        <img style="width: 50px; height: 50px;" src="img/m5.png" class="img-fluid border border-light rounded-circle p-1 bg-white shadow" alt="round 5" role="img">
+                                        
+                                        <h6 class="mr-5 pr-5 text-black fs-6 fw-medium">Dara</h6>
+                                        <a href="#" class="time d-inline-block text-decoration-none mr-2 border border-muted border-3 rounded-3 p-2 text-black fw-semibold fs-6 text-nowrap" role="link">
+                                            <i class="ri-timer-2-line text-white p-1 rounded-circle" style="background:#D07C2A" ></i> &nbsp;
+                                            Unpaid
+                                        </a>
+                                    </div>
+                                    <hr class="border border-1 border-dark-subtle ml-2 mr-2">
+                                </div>
+
+                            </div>
+                            <!-- Vertical line -->
+                            
+                            <div class="payment-status border border-dark-subtle border-1 rounded-3 bg-white ml-3 mr-3 pt-2 pl-4 pr-4" style="height: 100px; ">
+                                <div class="payment-statuses d-flex align-items-center justify-content-between">
+                                    <h5 class="text-black fw-light fs-5">Payment Status</h5>
+                                    <h3 class="text-black fw-semibold fs-4">UNPAID</h3>
+                                </div>
+                                <div class="status mt-1">
+                                    <div class="progress" style="width: 100%;">
+                                        <div class="progress-bar progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width: 80%;"></div>
+                                    </div> 
+                                </div>
+                            </div>
+                            <!-- Two buttons -->
+                            <div class="status-btn container pt-3 d-flex align-items-center justify-content-around">
+                                <a style=" padding: 10px 25px;" href="#" class="btn text-decoration-none d-inline-block text-white rounded-pill fs-6 shadow fw-medium">Send Remainder</a>
+                                <a style=" padding: 10px 25px;" href="#" class="text-decoration-none d-inline-block text-dark border border-2 bg-white rounded-pill fs-6 shadow fw-medium">Download Invoice</a>
+                            </div>
+                        </div> 
+                        <hr class="mt-5 mb-3">
+                        <div class="container pt-2 pb-2">
+                            <div class="ending d-flex align-items-center justify-content-around flex-direction-row">
+                                <h6 style="font-family: sans-serif;" class="text-secondary fw-medium h5">Payment Method</h6>
+                                <h6 style="font-family: sans-serif;" class="text-secondary fw-medium h5">Visa Ending 2986</h6>
+                                <div class="bg rounded-2" style="background: #2642B8; width: 45px; height: 10px; padding: 16px; margin-right: 10px;"></div>
+                            </div> <br>
+                            <a href="#" style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="btn d-flex align-items-center justify-content-center text-decoration-none text-white rounded-4 border p-3  shadow-lg fs-5"  role="button" rel="norefferer" rel="noopener" target="_blank">
+                                Pay Now
+                            </a>
+                        </div> <br><br>
+                    </div>
+                </div> 
+            </section>
+        </div>
+        <!-- Bootstrap 4 script tags -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        <!-- Boostrap 5 script tag -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({duration: 1500, once: true});
+        </script>
+    </body>
+</html>
+

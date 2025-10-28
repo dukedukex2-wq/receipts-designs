@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background: #f3f4f4;
+    color: #000000;
+}
+.receipt-bg-white {
+    transform: translateY(-10%);
+    transition: all 0.45s ease;   
+}
+/* For the shadow at the top in white bg */
+.receipt-bg-white::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%; 
+    z-index: 2;
+    background: linear-gradient( to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.05), transparent);
+}
+.img-text h6 {
+    transform: translateX(-10%);
+    transform: translateY(5px);
+}
+.btn {
+    background: #121826;
+}
+.btn:hover {
+    background: #121826;
+} 
+/* @media (max-width: 786px) {
+    .receipt-bg-white {
+        height: 130vh;
+    }
+} */
